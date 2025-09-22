@@ -1,1 +1,6 @@
 message: "Hello from Config Server!"
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/emsportalprod
+    username: root
+    password: Krishna@401
