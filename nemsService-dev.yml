@@ -1,6 +1,10 @@
-message: "Hello from Config Server!"
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/emsportalprod
+    url: jdbc:mysql://localhost:3306/nemsdb
     username: root
-    password: Krishna@401
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
